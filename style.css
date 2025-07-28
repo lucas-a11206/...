@@ -1,0 +1,356 @@
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body  {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 300px;
+    background-color: rgb(135, 191, 240);
+}
+
+section#main {
+    display: flex 
+     
+}
+#main div{
+    color: rgb(20, 18, 18);
+}
+.foto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid rgb(219, 41, 41);
+}
+section#experimentes {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section#experimentes ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* permite quebra de linha se necessário */
+    gap: 10px;
+    padding: 0;
+    list-style: disc inside;
+}
+
+.foto {
+    position: relative;
+    display: inline-block;
+}
+
+.foto {
+    position: relative;
+    display: inline-block;
+}
+
+body  {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 300px;
+    /* Efeito de gradiente animado */
+    background: linear-gradient(45deg, #87bff0, #7ab8e0, #6db0d0, #3bbce8);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.background-balls div:nth-child(1) {
+    width: 30px;
+    height: 30px;
+    left: 10%;
+    bottom: -50px;
+    animation-duration: 24s; /* anteriormente 12s */
+}
+.background-balls div:nth-child(2) {
+    width: 50px;
+    height: 50px;
+    left: 25%;
+    bottom: -50px;
+    animation-duration: 30s; /* anteriormente 15s */
+}
+.background-balls div:nth-child(3) {
+    width: 40px;
+    height: 40px;
+    left: 40%;
+    bottom: -50px;
+    animation-duration: 20s; /* anteriormente 10s */
+}
+.background-balls div:nth-child(4) {
+    width: 60px;
+    height: 60px;
+    left: 55%;
+    bottom: -50px;
+    animation-duration: 36s; /* anteriormente 18s */
+}
+.background-balls div:nth-child(5) {
+    width: 30px;
+    height: 30px;
+    left: 70%;
+    bottom: -50px;
+    animation-duration: 28s; /* anteriormente 14s */
+}
+.background-balls div:nth-child(6) {
+    width: 50px;
+    height: 50px;
+    left: 85%;
+    bottom: -50px;
+    animation-duration: 32s; /* anteriormente 16s */
+}
+.background-balls div:nth-child(7) {
+    width: 40px;
+    height: 40px;
+    left: 5%;
+    bottom: -50px;
+    animation-duration: 22s; /* anteriormente 11s */
+}
+.background-balls div:nth-child(8) {
+    width: 60px;
+    height: 60px;
+    left: 90%;
+    bottom: -50px;
+    animation-duration: 34s; /* anteriormente 17s */
+}
+.background-balls div:nth-child(9) {
+    width: 35px;
+    height: 35px;
+    left: 50%;
+    bottom: -50px;
+    animation-duration: 26s; /* anteriormente 13s */
+}
+.background-balls div:nth-child(10) {
+    width: 45px;
+    height: 45px;
+    left: 30%;
+    bottom: -50px;
+    animation-duration: 38s; /* anteriormente 19s */
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.7;
+    }
+    50% {
+        transform: translateY(-100vh) scale(1.2);
+        opacity: 0.3;
+    }
+    100% {
+        transform: translateY(0) scale(1);
+        opacity: 0.7;
+    }
+.background-balls div:nth-child(1) {
+    width: 30px;
+    height: 30px;
+    left: 10%;
+    bottom: -50px;
+    animation-duration: 24s; /* anteriormente 12s */
+}
+.background-balls div:nth-child(2) {
+    width: 50px;
+    height: 50px;
+    left: 25%;
+    bottom: -50px;
+    animation-duration: 30s; /* anteriormente 15s */
+}
+.background-balls div:nth-child(3) {
+    width: 40px;
+    height: 40px;
+    left: 40%;
+    bottom: -50px;
+    animation-duration: 20s; /* anteriormente 10s */
+}
+.background-balls div:nth-child(4) {
+    width: 60px;
+    height: 60px;
+    left: 55%;
+    bottom: -50px;
+    animation-duration: 36s; /* anteriormente 18s */
+}
+.background-balls div:nth-child(5) {
+    width: 30px;
+    height: 30px;
+    left: 70%;
+    bottom: -50px;
+    animation-duration: 28s; /* anteriormente 14s */
+}
+.background-balls div:nth-child(6) {
+    width: 50px;
+    height: 50px;
+    left: 85%;
+    bottom: -50px;
+    animation-duration: 32s; /* anteriormente 16s */
+}
+.background-balls div:nth-child(7) {
+    width: 40px;
+    height: 40px;
+    left: 5%;
+    bottom: -50px;
+    animation-duration: 22s; /* anteriormente 11s */
+}
+.background-balls div:nth-child(8) {
+    width: 60px;
+    height: 60px;
+    left: 90%;
+    bottom: -50px;
+    animation-duration: 34s; /* anteriormente 17s */
+}
+.background-balls div:nth-child(9) {
+    width: 35px;
+    height: 35px;
+    left: 50%;
+    bottom: -50px;
+    animation-duration: 26s; /* anteriormente 13s */
+}
+.background-balls div:nth-child(10) {
+    width: 45px;
+    height: 45px;
+    left: 30%;
+    bottom: -50px;
+    animation-duration: 38s; /* anteriormente 19s */
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.7;
+    }
+    50% {
+        transform: translateY(-100vh) scale(1.2);
+        opacity: 0.3;
+    }
+    100% {
+        transform: translateY(0) scale(1);
+        opacity: 0.7;
+    }
+}
+``` 
+
+/* Efeito de bolas animadas no fundo */
+.background-balls {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background-balls div {
+    position: absolute;
+    border-radius: 50%;
+    background: rgb(15, 15, 15);
+    animation: float linear infinite;
+}
+
+.background-balls div:nth-child(1) {
+    width: 30px;
+    height: 30px;
+    left: 10%;
+    bottom: -50px;
+    animation-duration: 12s;
+}
+.background-balls div:nth-child(2) {
+    width: 50px;
+    height: 50px;
+    left: 25%;
+    bottom: -50px;
+    animation-duration: 15s;
+}
+.background-balls div:nth-child(3) {
+    width: 40px;
+    height: 40px;
+    left: 40%;
+    bottom: -50px;
+    animation-duration: 10s;
+}
+.background-balls div:nth-child(4) {
+    width: 60px;
+    height: 60px;
+    left: 55%;
+    bottom: -50px;
+    animation-duration: 18s;
+}
+.background-balls div:nth-child(5) {
+    width: 30px;
+    height: 30px;
+    left: 70%;
+    bottom: -50px;
+    animation-duration: 14s;
+}
+.background-balls div:nth-child(6) {
+    width: 50px;
+    height: 50px;
+    left: 85%;
+    bottom: -50px;
+    animation-duration: 16s;
+}
+.background-balls div:nth-child(7) {
+    width: 40px;
+    height: 40px;
+    left: 5%;
+    bottom: -50px;
+    animation-duration: 11s;
+}
+.background-balls div:nth-child(8) {
+    width: 60px;
+    height: 60px;
+    left: 90%;
+    bottom: -50px;
+    animation-duration: 17s;
+}
+.background-balls div:nth-child(9) {
+    width: 35px;
+    height: 35px;
+    left: 50%;
+    bottom: -50px;
+    animation-duration: 13s;
+}
+.background-balls div:nth-child(10) {
+    width: 45px;
+    height: 45px;
+    left: 30%;
+    bottom: -50px;
+    animation-duration: 19s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.7;
+    }
+    50% {
+        transform: translateY(-100vh) scale(1.2);
+        opacity: 0.3;
+    }
+    100% {
+        transform: translateY(0) scale(1);
+        opacity: 0.7;
+    }
+}
+.background-balls div {
+    position: absolute;
+    border-radius: 50%;
+    background: #A17C5B; /* PANTONE 17-1230 Mocha Mousse */
+    animation: float linear infinite;
+}
